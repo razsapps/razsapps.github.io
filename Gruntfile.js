@@ -37,7 +37,7 @@ module.exports = function (grunt) {
         },
         release: {
           options: {
-            remote: 'git@github.com:razsapps/razsapps.github.io.git',
+            remote: 'https://github.com/razsapps/razsapps.github.io.git',
             branch: 'master'
           }
         },
