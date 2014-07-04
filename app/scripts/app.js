@@ -27,6 +27,10 @@ angular
         templateUrl: 'views/app_home.html',
         controller: 'AppHome'
       })
+      .when('/blue_connect', {
+        templateUrl: 'views/simple_app.html',
+        controller: 'BlueConnect'
+      })
       .otherwise({
         redirectTo: '/apps'
       });

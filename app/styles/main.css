@@ -21,11 +21,10 @@ body {
   background: #FFF3DD
 }
 
-.header,
-.marketing,
-.footer {
+.header {
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 1px solid #415B89;
 }
 
 .header_element {
@@ -61,6 +60,10 @@ body {
     padding:25px;
 }
 
+.app_icon_overlay {
+    position:relative;
+}
+
 .text_overlay {
     position:absolute;
     background:#C4CEDF;
@@ -73,12 +76,4 @@ body {
     border-radius:15px;
     font-weight:bold;
     font-size:14px;
-}
-
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #415B89;
-  border-top: 1px solid #415B89;
 }
