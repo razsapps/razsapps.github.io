@@ -31,6 +31,10 @@ angular
         templateUrl: 'views/simple_app.html',
         controller: 'BlueConnect'
       })
+      .when('/decision_maker', {
+        templateUrl: 'views/simple_app.html',
+        controller: 'DecisionMaker'
+      })
       .otherwise({
         redirectTo: '/apps'
       });
