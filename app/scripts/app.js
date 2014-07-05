@@ -35,6 +35,10 @@ angular
         templateUrl: 'views/simple_app.html',
         controller: 'DecisionMaker'
       })
+      .when('/zero_fill', {
+        templateUrl: 'views/simple_app.html',
+        controller: 'ZeroFill'
+      })
       .otherwise({
         redirectTo: '/apps'
       });
