@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name razsapps.controller:AppHome
+ * @name razsapps.controller:BlueConnect
  * @description
- * # AppHome
+ * # BlueConnect
  * Controller of the razsapps
  */
 angular.module('razsapps')
