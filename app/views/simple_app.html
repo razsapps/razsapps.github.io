@@ -9,10 +9,11 @@
 
     </br>
 
-    <p ng-repeat="line in appData.description">
-        {{line}}
-    </p>
-
+    <span ng-repeat="line in appData.description">
+        <p ng-bind-html="line | linky">
+            {{line}}
+        </p>
+    </span>
 </div>
 
 <div class="app_media">
