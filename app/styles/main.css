@@ -55,13 +55,30 @@ body {
 	top:1px;
 }
 
+.tag_line {
+    float:left;
+    padding:50px;
+}
+
 .single_app {
     float:left;
     padding:25px;
 }
 
+.fresh_line {
+    clear: left;
+}
+
+.install_column {
+    float:left;
+    width:30%;
+    padding-right:25px;
+    min-width:275px;
+}
+
 .app_icon_overlay {
     position:relative;
+    float:left;
 }
 
 .text_overlay {

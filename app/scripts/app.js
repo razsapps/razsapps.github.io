@@ -39,6 +39,10 @@ angular
         templateUrl: 'views/simple_app.html',
         controller: 'ZeroFill'
       })
+      .when('/htpc_remote', {
+        templateUrl: 'views/htpc_remote.html',
+        controller: 'HtpcRemote'
+      })
       .otherwise({
         redirectTo: '/apps'
       });
