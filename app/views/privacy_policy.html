@@ -1,0 +1,12 @@
+<p ng-repeat="introLine in intro">
+    {{introLine}}
+</p>
+
+<span ng-repeat="policy in policies">
+    <strong>{{policy.header}}</strong>
+    <br/>
+    <span ng-repeat="line in policy.content">
+        {{line}}
+        <br/><br/>
+    </span>
+</span>

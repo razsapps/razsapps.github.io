@@ -43,6 +43,14 @@ angular
         templateUrl: 'views/htpc_remote.html',
         controller: 'HtpcRemote'
       })
+      .when('/htpc_privacy', {
+        templateUrl: 'views/privacy_policy.html',
+        controller: 'HtpcRemotePrivacyPolicy'
+      })
+      .when('/ptc_privacy', {
+        templateUrl: 'views/privacy_policy.html',
+        controller: 'PtcPrivacyPolicy'
+      })
       .otherwise({
         redirectTo: '/apps'
       });
