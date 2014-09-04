@@ -9,6 +9,14 @@
  */
 angular.module('razsapps')
   .controller('BlueConnect', function ($scope) {
+    $scope.currentPageTitle = 'Blue Connect';
+    $scope.navPages = [
+      {
+          title: 'Apps',
+          link: 'apps'
+      }
+    ];
+      
     $scope.appData = {
         name: 'Blue Connect',
         icon: 'images/blue_connect.png',

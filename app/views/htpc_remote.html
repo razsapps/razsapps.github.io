@@ -1,3 +1,6 @@
+<!--Navigation Bar -->
+<div ng-include src="'views/navbar.html'"></div>
+
 <div>
     <div class="app_icon_overlay">
         <img src="{{appData.icon}}">
@@ -14,7 +17,7 @@
 <br class="fresh_line"/>
 <div>
     <div class="install_column" ng-repeat="osInstall in installData">
-        <a src="{{osInstall.link}}">
+        <a href="{{osInstall.link}}">
             <img src="{{osInstall.icon}}">
             <br/>
             <h3>{{osInstall.os}}</h3>

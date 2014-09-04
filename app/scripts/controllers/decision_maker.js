@@ -9,6 +9,14 @@
  */
 angular.module('razsapps')
   .controller('DecisionMaker', function ($scope, $sce) {
+    $scope.currentPageTitle = 'Decision Maker';
+    $scope.navPages = [
+      {
+          title: 'Apps',
+          link: 'apps'
+      }
+    ];
+      
     $scope.appData = {
         name: 'Decision Maker',
         icon: 'images/decision_maker.png',

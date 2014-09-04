@@ -9,6 +9,18 @@
  */
 angular.module('razsapps')
   .controller('HtpcRemotePrivacyPolicy', function ($scope) {
+    $scope.currentPageTitle = 'Privacy Policy';
+    $scope.navPages = [
+        {
+            title: 'Apps',
+            link: 'apps'
+        },
+        {
+            title: 'HTPC Remote',
+            link: 'htpc_remote'
+        },
+    ];
+      
     $scope.intro = ['We use technologies like unique device identifiers to anonymously identify your device so we can deliver a better experience. Our systems can also log information like your browser, operating system and IP address.  We make a best effort to not collect personal identifiable information (such as name, address, email or phone). We do collect how the application is being used so we can better serve you.'];
 
 

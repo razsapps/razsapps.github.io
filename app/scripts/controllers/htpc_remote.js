@@ -9,6 +9,13 @@
  */
 angular.module('razsapps')
   .controller('HtpcRemote', function ($scope) {
+      $scope.currentPageTitle = 'HTPC Remote';
+      $scope.navPages = [
+        {
+            title: 'Apps',
+            link: 'apps'
+        }
+      ];
 
       $scope.appData = {
           name: 'HTPC Remote',
@@ -42,11 +49,12 @@ angular.module('razsapps')
         {
             os: 'Linux',
             icon: 'images/linux.png',
+            link: 'https://sites.google.com/site/razhtpc/htpc_deploy.jnlp',
             java_download: 'https://www.java.com/en/download/',
             java_text: 'Java 6.0 or newer is needed to run the software',
             description: [
                 'This software has only been tested on Ubuntu and a much older version of Mint.  You need the official java software to run this and not OpenJDK.  OpenJDK WILL NOT work.  While I have not tested it with other distros, it is most likely this will work on all major linux distros.'
             ]
         }
-    ]
+    ];
   });

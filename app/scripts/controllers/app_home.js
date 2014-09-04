@@ -9,6 +9,8 @@
  */
 angular.module('razsapps')
   .controller('AppHome', function ($scope) {
+    $scope.currentPageTitle = 'Apps';
+      
     $scope.apps = [
         {
             name: 'HTPC Remote',

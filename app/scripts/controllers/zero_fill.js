@@ -9,6 +9,14 @@
  */
 angular.module('razsapps')
   .controller('ZeroFill', function ($scope) {
+    $scope.currentPageTitle = 'Zero Fill';
+    $scope.navPages = [
+      {
+          title: 'Apps',
+          link: 'apps'
+      }
+    ];
+      
     $scope.appData = {
         name: 'Zero Fill: Permanent Eraser',
         icon: 'images/zerofill_eraser.png',
