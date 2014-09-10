@@ -8,21 +8,21 @@
  * Controller of the razsapps
  */
 angular.module('razsapps')
-  .controller('HtpcRemote', function ($scope) {
-      $scope.currentPageTitle = 'HTPC Remote';
-      $scope.navPages = [
+  .controller('HtpcRemote', function ($scope, $sce) {
+    $scope.currentPageTitle = 'HTPC Remote';
+    $scope.navPages = [
         {
             title: 'Apps',
             link: 'apps'
         }
-      ];
-
-      $scope.appData = {
-          name: 'HTPC Remote',
-          icon: 'images/htpc_remote.png'
-      };
-
-
+    ];
+    
+    $scope.appData = {
+        name: 'HTPC Remote',
+        icon: 'images/htpc_remote.png',
+        package: 'com.ras.htpcremote'
+    };
+    
     $scope.installData = [
         {
             os: 'Windows',
@@ -57,4 +57,7 @@ angular.module('razsapps')
             ]
         }
     ];
+    
+    $scope.videoUrl = $sce.trustAsResourceUrl('//www.youtube.com/embed/OyAgIf1CWn4');
+    $scope.privacyPolicyLink = '/apps/htpc_remote/htpc_privacy';
   });

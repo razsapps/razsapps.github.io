@@ -47,6 +47,10 @@ angular
         templateUrl: 'views/privacy_policy.html',
         controller: 'HtpcRemotePrivacyPolicy'
       })
+      .when('/apps/ptc', {
+        templateUrl: 'views/download_app.html',
+        controller: 'PhoneToComputer'
+      })
       .when('/apps/ptc/ptc_privacy', {
         templateUrl: 'views/privacy_policy.html',
         controller: 'PtcPrivacyPolicy'
