@@ -25,5 +25,5 @@ angular.module('razsapps')
         ]
     };
 
-    $scope.videoUrl = $sce.trustAsResourceUrl('//www.youtube.com/embed/_t2U-T-EkxY');
+    $scope.videoUrls = [$sce.trustAsResourceUrl('//www.youtube.com/embed/_t2U-T-EkxY')];
   });

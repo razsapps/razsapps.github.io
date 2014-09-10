@@ -27,7 +27,7 @@ angular.module('razsapps')
         ]
     };
     
-    $scope.replacementApps = [
+    $scope.linkDetails = [
       {
         text: 'For your HTPC needs please use HTPC Remote.',
         link: 'apps/htpc_remote'
