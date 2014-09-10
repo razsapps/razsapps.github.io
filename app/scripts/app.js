@@ -27,27 +27,27 @@ angular
         templateUrl: 'views/app_home.html',
         controller: 'AppHome'
       })
-      .when('/blue_connect', {
+      .when('/apps/blue_connect', {
         templateUrl: 'views/simple_app.html',
         controller: 'BlueConnect'
       })
-      .when('/decision_maker', {
+      .when('/apps/decision_maker', {
         templateUrl: 'views/simple_app.html',
         controller: 'DecisionMaker'
       })
-      .when('/zero_fill', {
+      .when('/apps/zero_fill', {
         templateUrl: 'views/simple_app.html',
         controller: 'ZeroFill'
       })
-      .when('/htpc_remote', {
+      .when('/apps/htpc_remote', {
         templateUrl: 'views/htpc_remote.html',
         controller: 'HtpcRemote'
       })
-      .when('/htpc_privacy', {
+      .when('/apps/htpc_remote/htpc_privacy', {
         templateUrl: 'views/privacy_policy.html',
         controller: 'HtpcRemotePrivacyPolicy'
       })
-      .when('/ptc_privacy', {
+      .when('/apps/ptc/ptc_privacy', {
         templateUrl: 'views/privacy_policy.html',
         controller: 'PtcPrivacyPolicy'
       })
