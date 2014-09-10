@@ -8,8 +8,8 @@
  * Controller of the razsapps
  */
 angular.module('razsapps')
-  .controller('WiScaniFi', function ($scope, $sce) {
-    $scope.currentPageTitle = 'WiScaniFi';
+  .controller('WiScanifi', function ($scope, $sce) {
+    $scope.currentPageTitle = 'WiScanifi';
     $scope.navPages = [
       {
           title: 'Apps',
@@ -18,7 +18,7 @@ angular.module('razsapps')
     ];
       
     $scope.appData = {
-        name: 'WiScaniFi',
+        name: 'WiScanifi',
         icon: 'images/wiscanifi.png',
         package: 'com.raz.scanner',
         downloadLink: 'https://sites.google.com/site/wiscanifi/wiscanifi.jnlp?attredirects=0',
