@@ -55,6 +55,10 @@ angular
         templateUrl: 'views/privacy_policy.html',
         controller: 'PtcPrivacyPolicy'
       })
+      .when('/apps/wiscanifi', {
+        templateUrl: 'views/simple_app.html',
+        controller: 'WiScaniFi'
+      })
       .otherwise({
         redirectTo: '/apps'
       });
