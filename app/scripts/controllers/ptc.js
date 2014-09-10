@@ -22,6 +22,7 @@ angular.module('razsapps')
         icon: 'images/phone_to_computer.png',
         package: 'com.raz.ptc',
         downloadLink: 'https://sites.google.com/site/razsapps/ptc.jnlp?attredirects=0',
+        privacyPolicyLink: 'apps/ptc/ptc_privacy',
         description: [
             'This project is no longer supported.  This website is here for legacy purposes for those who still use the application.'
         ]

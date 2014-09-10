@@ -17,7 +17,7 @@ angular.module('razsapps')
         },
         {
             title: 'HTPC Remote',
-            link: 'htpc_remote'
+            link: 'apps/htpc_remote'
         },
     ];
       

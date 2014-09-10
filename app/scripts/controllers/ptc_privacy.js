@@ -17,7 +17,7 @@ angular.module('razsapps')
         },
         {
             title: 'Phone to Computer',
-            link: 'ptc'
+            link: 'apps/ptc'
         },
     ];
     

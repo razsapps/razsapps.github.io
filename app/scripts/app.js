@@ -57,7 +57,7 @@ angular
       })
       .when('/apps/wiscanifi', {
         templateUrl: 'views/simple_app.html',
-        controller: 'WiScaniFi'
+        controller: 'WiScanifi'
       })
       .otherwise({
         redirectTo: '/apps'

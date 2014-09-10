@@ -20,7 +20,8 @@ angular.module('razsapps')
     $scope.appData = {
         name: 'HTPC Remote',
         icon: 'images/htpc_remote.png',
-        package: 'com.ras.htpcremote'
+        package: 'com.ras.htpcremote',
+        privacyPolicyLink: '/apps/htpc_remote/htpc_privacy'
     };
     
     $scope.installData = [
@@ -59,5 +60,4 @@ angular.module('razsapps')
     ];
     
     $scope.videoUrl = $sce.trustAsResourceUrl('//www.youtube.com/embed/OyAgIf1CWn4');
-    $scope.privacyPolicyLink = '/apps/htpc_remote/htpc_privacy';
   });

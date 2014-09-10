@@ -43,3 +43,8 @@
     <!-- Provide Google Play download links -->
     <a ng-show="appData.package" href="https://play.google.com/store/apps/details?id={{appData.package}}" style="color:rgb(0,178,179);background-color:rgb(212,255,255);line-height:40px;text-align:center"><img border="0" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" style="font-size:10pt;line-height:1.25;text-align:left;display:block;margin-right:auto"></a>
 </div>
+
+<br class="fresh_line"/>
+<span ng-show="appData.privacyPolicyLink">
+    <a href="#{{appData.privacyPolicyLink}}">Privacy Policy</a>
+</span>
