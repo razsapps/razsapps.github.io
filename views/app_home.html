@@ -1,1 +1,1 @@
-<div class="all_apps"> <div class="single_app" ng-repeat="appData in apps"> <a href="#{{appData.site}}"> <div style="position:relative"> <img src="{{appData.icon}}"> <div class="text_overlay"> <p>{{appData.name}}</p> </div> </div> </a> </div> </div>
+<!--Navigation Bar --> <div ng-include src="'views/navbar.html'"></div> <div class="all_apps"> <div class="single_app" ng-repeat="appData in apps"> <a href="#{{appData.site}}"> <div class="app_icon_overlay"> <img src="{{appData.icon}}"> <div class="text_overlay"> <p>{{appData.name}}</p> </div> </div> </a> </div> </div>
